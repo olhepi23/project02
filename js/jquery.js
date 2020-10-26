@@ -128,19 +128,5 @@ $(document).ready(function() {
 */
 
 
-/*전체메뉴*/
-$(function(){
-    var $firstMenu = $('nav > ul > li'),
-        $header = $('#b_header');
-    
-    $firstMenu.mouseover(function(){
-        $header.stop().animate({height:'480px'},300);
-        
-    })
-    .mouseout(function(){
-        $header.stop().animate({height:'85px'},300);
-    });
-    
-    
-});
+
 
